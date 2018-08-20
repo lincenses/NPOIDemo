@@ -1,0 +1,8 @@
+D:\我的示例\NPOIDemo\NPOIDemo\bin\Debug\NPOIDemo.exe.config
+D:\我的示例\NPOIDemo\NPOIDemo\bin\Debug\NPOIDemo.exe
+D:\我的示例\NPOIDemo\NPOIDemo\bin\Debug\NPOIDemo.pdb
+D:\我的示例\NPOIDemo\NPOIDemo\obj\Debug\NPOIDemo.csprojResolveAssemblyReference.cache
+D:\我的示例\NPOIDemo\NPOIDemo\obj\Debug\NPOIDemo.Properties.Resources.resources
+D:\我的示例\NPOIDemo\NPOIDemo\obj\Debug\NPOIDemo.csproj.GenerateResource.Cache
+D:\我的示例\NPOIDemo\NPOIDemo\obj\Debug\NPOIDemo.exe
+D:\我的示例\NPOIDemo\NPOIDemo\obj\Debug\NPOIDemo.pdb
