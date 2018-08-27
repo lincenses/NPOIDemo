@@ -81,9 +81,16 @@ namespace NPOIDemo.Extension
             if (!fileInfo.Exists)
             { return null; }
             System.IO.FileStream fileStream = new System.IO.FileStream(fileInfo.FullName, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-            NPOI.SS.UserModel.IWorkbook workbook = NPOI.SS.UserModel.WorkbookFactory.Create(fileStream);
+            DateTime startTime = DateTime.Now;
+            NPOI.SS.UserModel.IWorkbook iWorkbook = null;
+            iWorkbook = NPOI.SS.UserModel.WorkbookFactory.Create(fileStream);
+            //if (fileInfo.Extension == ".xls")
+            //{ iWorkbook = new NPOI.HSSF.UserModel.HSSFWorkbook(fileStream); }
+            //else if (fileInfo.Extension == ".xlsx")
+            //{ iWorkbook = new NPOI.XSSF.UserModel.XSSFWorkbook(fileStream); }
             fileStream.Close();
-            return workbook;
+            System.Windows.Forms.MessageBox.Show(DateTime.Now.Subtract(startTime).ToString());
+            return iWorkbook;
         }
         #endregion
 
